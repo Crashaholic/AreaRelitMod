@@ -96,8 +96,7 @@ namespace AreaRelit
 					Light[] lights = FindObjectsOfType<Light>() as Light[];
 					foreach (Light light in lights)
 					{
-						Color c = new Color(10.0f / 255.0f, 0, 0);
-						light.color += c;
+						light.color += new Color(10.0f / 255.0f, 0, 0);
 					}
 					clickedR++;
 				}
@@ -107,8 +106,7 @@ namespace AreaRelit
 					Light[] lights = FindObjectsOfType<Light>() as Light[];
 					foreach (Light light in lights)
 					{
-						Color c = new Color(0, 10.0f / 255.0f, 0);
-						light.color += c;
+						light.color += new Color(0, 10.0f / 255.0f, 0);
 					}
 					clickedG++;
 				}
@@ -118,8 +116,7 @@ namespace AreaRelit
 					Light[] lights = FindObjectsOfType<Light>() as Light[];
 					foreach (Light light in lights)
 					{
-						Color c = new Color(0, 0, 10.0f / 255.0f);
-						light.color += c;
+						light.color += new Color(0, 0, 10.0f / 255.0f);
 					}
 					clickedB++;
 				}
@@ -130,8 +127,7 @@ namespace AreaRelit
 					Light[] lights = FindObjectsOfType<Light>() as Light[];
 					foreach (Light light in lights)
 					{
-						Color c = new Color(10.0f / 255.0f, 0, 0);
-						light.color -= c;
+						light.color -= new Color(10.0f / 255.0f, 0, 0);
 					}
 					clickedR--;
 				}
@@ -141,8 +137,7 @@ namespace AreaRelit
 					Light[] lights = FindObjectsOfType<Light>() as Light[];
 					foreach (Light light in lights)
 					{
-						Color c = new Color(0, 10.0f / 255.0f, 0);
-						light.color -= c;
+						light.color -= new Color(0, 10.0f / 255.0f, 0);
 					}
 					clickedG--;
 				}
@@ -152,8 +147,7 @@ namespace AreaRelit
 					Light[] lights = FindObjectsOfType<Light>() as Light[];
 					foreach (Light light in lights)
 					{
-						Color c = new Color(0, 0, 10.0f / 255.0f);
-						light.color -= c;
+						light.color -= new Color(0, 0, 10.0f / 255.0f);
 					}
 					clickedB--;
 				}
@@ -163,8 +157,7 @@ namespace AreaRelit
 					Light[] lights = FindObjectsOfType<Light>() as Light[];
 					foreach (Light light in lights)
 					{
-						Color c = new Color(10.0f / 255.0f, 10.0f / 255.0f, 10.0f / 255.0f);
-						light.color += c;
+						light.color += new Color(10.0f / 255.0f, 10.0f / 255.0f, 10.0f / 255.0f);
 					}
 					clickedR++;
 					clickedG++;
@@ -175,8 +168,7 @@ namespace AreaRelit
 					Light[] lights = FindObjectsOfType<Light>() as Light[];
 					foreach (Light light in lights)
 					{
-						Color c = new Color(10.0f / 255.0f, 10.0f / 255.0f, 10.0f / 255.0f);
-						light.color -= c;
+						light.color -= new Color(10.0f / 255.0f, 10.0f / 255.0f, 10.0f / 255.0f);
 					}
 					clickedR--;
 					clickedG--;
